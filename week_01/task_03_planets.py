@@ -19,6 +19,8 @@ dist_to_sun_avg = sum(list(planets.values())) / len(planets)
 planets_names_sorted = sorted(list(planets.keys()))
 farther_value = planets['Нептун'] / planets['Земля']
 
-print(f"dist_to_sun_avg: {dist_to_sun_avg}, "
-      f"planets_names_sorted: {planets_names_sorted}, "
-      f"farther_value: {farther_value}")
+print(
+    f"dist_to_sun_avg: {dist_to_sun_avg}, "
+    f"planets_names_sorted: {planets_names_sorted}, "
+    f"farther_value: {farther_value}"
+)
